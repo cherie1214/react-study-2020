@@ -3,7 +3,7 @@ import React from 'react'
 function LoginPage() {
   return (
     <div>
-      LoginPage
+      LoginPage 로그인
     </div>
   )
 }

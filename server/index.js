@@ -25,6 +25,10 @@ mongoose.connect(config.mongoURI, {
 
 app.get('/', (req, res) => res.send('Hello World! 오이!'))
 
+app.get('/api/hello', (req, res) => {
+    res.send("코쿤캅~")
+})
+
 
 //// 회원가입
 app.post('/api/users/register', (req ,res) => {
